@@ -16,7 +16,7 @@ $(document).ready(function(){
 		var t = $('.gen').text().replace(/(\&shy;|­|&#173;)/gi, "");
 		$('.gen').text(t);
 		if ($('.gen').text().length < leng){
-			console.log($('.gen').text());
+			// console.log($('.gen').text());
 			$('.gen').text('');
 			gen_fun(leng,'.gen');
 		}
